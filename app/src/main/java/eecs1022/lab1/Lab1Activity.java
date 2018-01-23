@@ -47,6 +47,6 @@ public class Lab1Activity extends AppCompatActivity
 
 
         setTextViewById(R.id.labelAnswer, user.toString());
-        //code
+        //code2
     }
 }
