@@ -16,5 +16,11 @@ public class PersonTester {
         p2.setWeight(p2.getWeight() - 5);
         System.out.println(p2);
         System.out.println(p3);
+
+        //this is the location where we can store the information anduse it to test the codes.
+        //this Person in this tester is refering to the other Person class
+        // the reason we do this is to Alocate space in the memory for a person object with input
+        // declare  a variable P1 that stores the address of some person object
+
     }
 }

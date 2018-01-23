@@ -30,13 +30,13 @@ public class Person {
         } else if (30.0 <= bmi && bmi < 100){
             return "Obese.";
         }
-        return "unknown. Maybe some value are mistaken.";
+        return "Please re-enter correct values";
     }
 
     @Override
     public String toString()
     {
-        String ret = String.format("%s's BMI is %.2f, Your state is %s", name, getBMI(), getState());
+        String ret = name + "'s BMI is " + String.format("%.2f", getBMI()) + ", \nYour state is " + getState();
         return ret;
     }
 
